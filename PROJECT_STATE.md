@@ -1,29 +1,28 @@
 # Project State
 
-> Шаблон. Копируется в корень проекта и обновляется после каждого merge.
+Project: AlexxGrekk Engineering Standard
 
-Project: <!-- название проекта -->
-
-Current milestone: <!-- M0 / M1 / ... -->
+Current milestone: M0 — Engineering Standard v1.0
 
 Completed:
 
-- <!-- milestones со ссылками на PR/Issue -->
+- M0 — profile-level Engineering Standard ([PR #2](https://github.com/AlexxGrekk/.github/pull/2))
 
 In progress:
 
-- <!-- текущая работа -->
+- None
 
-Open PR: <!-- #номер или None -->
+Open PR: None
 
-Open Issues: <!-- #номер или None -->
+Open Issues: None
 
-Current Architecture Version: <!-- например 0.1 -->
+Current Architecture Version: 1.0
 
-Last Review: <!-- YYYY-MM-DD -->
+Last Review: 2026-09-28
 
 Known Limitations:
 
-- <!-- ограничения и отложенные решения -->
+- Project-specific CI checks remain skeletons and must be supplied by each repository.
+- A project may override these defaults with its own `.github` files.
 
-Next Gate: <!-- что должно быть принято перед следующим milestone -->
+Next Gate: Apply the standard to the first project milestone using Issue → feature branch → PR → review → manual merge → close Issue.
