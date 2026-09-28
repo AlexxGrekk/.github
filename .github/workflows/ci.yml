@@ -1,0 +1,12 @@
+name: CI skeleton
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Project-specific checks
+        run: echo "Add project-specific tests here"
